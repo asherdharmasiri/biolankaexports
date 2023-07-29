@@ -13,3 +13,5 @@ const ProductsPage = () => {
 };
 
 export default ProductsPage;
+
+export const Head = () => <title>Products Page</title>;
