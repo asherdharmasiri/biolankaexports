@@ -1,0 +1,57 @@
+.InspiredBy {
+  background-color: #2e692f;
+  padding: 80px;
+  border-radius: 28px;
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.Left {
+  h2 {
+    margin: 0;
+    font-size: 46px;
+    font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    width: 80%;
+    span {
+      color: #b3ef67;
+    }
+  }
+  .ImageContainer {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+  }
+}
+
+.Right {
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+}
+
+.Point {
+  display: flex;
+  gap: 25px;
+  align-items: flex-start;
+  span {
+    font-size: 28px;
+    font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: 400;
+    color: #b3ef67;
+  }
+  p {
+    font-size: 18px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 400;
+    color: #e0eae0;
+    opacity: 0.6;
+    width: 80%;
+  }
+}

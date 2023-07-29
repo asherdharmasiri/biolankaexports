@@ -1,0 +1,85 @@
+.HandPicked {
+  display: flex;
+  gap: 32px;
+  margin-top: 48px;
+}
+
+.Left {
+  width: 55%;
+  background-color: white;
+  box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.02);
+  border-radius: 28px;
+  padding: 48px;
+  display: flex;
+  justify-content: space-between;
+
+  .TextContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h2 {
+      font-size: 45px;
+      font-family: DM Serif Display;
+      font-style: normal;
+      font-weight: 400;
+      color: #449e47;
+      span {
+        color: #6c6c6c;
+      }
+    }
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      li {
+        p {
+          margin: 0;
+          font-size: 18px;
+          font-family: "DM Sans";
+          font-style: normal;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+
+  .ImageContainer {
+    margin-top: 100px;
+  }
+}
+
+.Right {
+  width: 45%;
+  background-color: #2e692f;
+  border-radius: 28px;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .Desc {
+    font-size: 18px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+  }
+  .Points {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 44px;
+    color: #c6ff4e;
+    span {
+      font-size: 46px;
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: 700;
+    }
+    p {
+      font-size: 18px;
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: 400;
+    }
+  }
+}

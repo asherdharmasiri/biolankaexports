@@ -1,0 +1,64 @@
+.Footer {
+  margin-top: 80px;
+}
+
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3a7a3b;
+  padding: 20px 60px;
+  border-top-left-radius: 28px;
+  border-top-right-radius: 28px;
+
+  .ButtonContainer {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    p {
+      margin: 0;
+      color: white;
+      opacity: 0.6;
+    }
+  }
+}
+
+.Content {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2e692f;
+  padding: 60px;
+  .Social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    p {
+      margin: 0;
+      color: white;
+    }
+  }
+  .Links {
+    display: flex;
+    gap: 124px;
+    span {
+      color: #b3ef67;
+      font-family: DM Sans;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+    }
+    ul {
+      margin-top: 24px;
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      color: white;
+      font-family: DM Sans;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.Points {
+  background-color: #272727;
+  border-radius: 24px;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+}
+
+.Card {
+  h5 {
+    margin: 0;
+    color: #c6ff4e;
+    font-family: DM Serif Display;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 15px;
+  }
+  p {
+    color: #e0eae0;
+    opacity: 0.6;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+  }
+}

@@ -1,0 +1,72 @@
+.QAndASection {
+  display: flex;
+  margin-top: 48px;
+  gap: 32px;
+}
+
+.QAndA {
+  width: 45%;
+  padding: 48px;
+  border-radius: 28px;
+  background-color: #272727;
+  h2 {
+    margin: 0;
+    width: 50%;
+    font-size: 40px;
+    font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 40px;
+    span {
+      color: #b3ef67;
+    }
+  }
+}
+
+.AccordianContainer {
+  .AccordianItem {
+    margin-bottom: 12px;
+  }
+  .AccordianButton {
+    background-color: #404040;
+    color: white;
+    padding: 14px;
+    font-size: 18px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 12px;
+  }
+  .ItemPanel {
+    color: white;
+    padding: 14px;
+  }
+}
+
+.RecentUpdates {
+  width: 55%;
+  background-color: white;
+  border-radius: 28px;
+  padding: 48px;
+  .Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    h2 {
+      font-size: 32px;
+      font-family: DM Serif Display;
+      font-style: normal;
+      font-weight: 400;
+      color: #449e47;
+      margin: 0;
+    }
+  }
+}
+
+.GridContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}

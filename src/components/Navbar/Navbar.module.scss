@@ -1,0 +1,45 @@
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 16px;
+  border-radius: 200px;
+  position: fixed;
+  z-index: 9999;
+  top: 24px;
+  left: 40px;
+  right: 40px;
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    li {
+      cursor: pointer;
+    }
+  }
+
+  button {
+    margin-left: 40px;
+  }
+
+  
+}
+
+.Right {
+  list-style: none;
+  a {
+    text-decoration: none;
+  }
+}
+
+.Link {
+  text-decoration: none;
+  color: black;
+}
+
+.ActiveLink {
+  color: #449e47;
+  text-decoration: none;
+}
