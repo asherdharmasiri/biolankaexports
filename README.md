@@ -1,26 +1,22 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
 <h1 align="center">
-  Gatsby Minimal Starter
+  Bio Lanka Exports
 </h1>
+<p>Bio Lanka Exports is a company that exports traditional products like Coconut, Tea, Rubber, Gems etc. & Non-traditional products like garments, jewellery, food, flowers etc. This website is created as a showcase site for the company using GatsbyJs.</p>
 
-## 🚀 Quick start
+## How to run this project:
 
-1.  **Create a Gatsby site.**
+1.  **Clone Project.**
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+    Use Git clone command to clone this repository.
 
     ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
+    # clone repository
+    git clone https://github.com/johashperera/bio-lanka-exports.git
     ```
 
-2.  **Start developing.**
+2.  **Run Project.**
 
-    Navigate into your new site’s directory and start it up.
+    Navigate into to the cloned directory and start it up.
 
     ```shell
     cd my-gatsby-site/
@@ -29,21 +25,6 @@
 
 3.  **Open the code and start customizing!**
 
-    Your site is now running at http://localhost:8000!
+    Bio Lanka Exports site is now running at http://localhost:8000!
 
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Tutorials](https://www.gatsbyjs.com/docs/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Guides](https://www.gatsbyjs.com/docs/how-to/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Netlify)
-
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
-
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal)
+    Edit as you need.
