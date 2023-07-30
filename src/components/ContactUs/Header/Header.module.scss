@@ -1,0 +1,28 @@
+.Header {
+  background-color: white;
+  box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.02);
+  border-radius: 28px;
+  padding: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  .Container {
+    width: 75%;
+  }
+  h1 {
+    font-family: DM Serif Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    color: #449e47;
+    span {
+      color: #6c6c6c;
+    }
+  }
+  p {
+    margin-top: 15px;
+    padding-inline-start: 100px;
+    padding-inline-end: 100px;
+    font-size: 18px;
+  }
+}

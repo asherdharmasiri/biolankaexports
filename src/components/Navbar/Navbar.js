@@ -10,7 +10,11 @@ const Navbar = () => {
       <StaticImage src="../../images/logo.png" alt="logo" />
       <ul>
         <li>
-          <Link to="/" activeClassName={classes.ActiveLink} className={classes.Link}>
+          <Link
+            to="/"
+            activeClassName={classes.ActiveLink}
+            className={classes.Link}
+          >
             Home
           </Link>
         </li>
@@ -28,8 +32,16 @@ const Navbar = () => {
         </li>
       </ul>
       <div className={classes.Right}>
-        <Link to="/products" activeClassName={classes.ActiveLink} className={classes.Link}>Products</Link>
-        <Button primary>Get a Quotation</Button>
+        <Link
+          to="/products"
+          activeClassName={classes.ActiveLink}
+          className={classes.Link}
+        >
+          Products
+        </Link>
+        <Button primary>
+          <Link to="/contact-us">Get a Quotation</Link>
+        </Button>
       </div>
     </nav>
   );

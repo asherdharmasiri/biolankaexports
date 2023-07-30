@@ -1,0 +1,76 @@
+.ContactForm {
+  margin-top: 50px;
+  display: flex;
+  gap: 50px;
+}
+
+.ContactPanel {
+  background-color: #272727;
+  width: 45%;
+  padding: 40px;
+  border-radius: 28px;
+  h2 {
+    font-family: DM Serif Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+  }
+}
+
+.CardContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.ContactCard {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #404040;
+  padding: 16px;
+  border-radius: 12px;
+  text-align: center;
+  span {
+    color: white;
+    font-size: 28px;
+  }
+  p {
+    color: white;
+    opacity: 0.5;
+  }
+  button {
+    margin-top: 10px;
+  }
+}
+
+.Form {
+  width: 55%;
+  background-color: white;
+  padding: 40px;
+  border-radius: 28px;
+  form {
+    margin-top: 40px;
+  }
+  button {
+    margin-top: 20px;
+  }
+}
+
+.Title {
+  h2 {
+    color: #449e47;
+    font-family: DM Serif Display;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+
+.Row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin-bottom: 15px;
+}
