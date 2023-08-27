@@ -1,0 +1,15 @@
+.ProductCard {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+.ImageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -35,7 +35,9 @@ const TraditionalProductsModal = ({ open, onClose }) => {
               />
               <span>Coconut</span>
               <p>Pure Sri Lankan coconuts, nature's bliss in every sense.</p>
-              <Button primary>Explore Products</Button>
+              <Button primary to="/products/coconut">
+                Explore Products
+              </Button>
             </div>
             <div className={classes.Card}>
               <StaticImage
