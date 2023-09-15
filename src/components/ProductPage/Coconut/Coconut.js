@@ -26,7 +26,7 @@ const Coconut = () => {
                 <ProductCard title="Copra"
                              image={<StaticImage src="../../../images/kernal-products/copra.jpg"/>}/>
                 <ProductCard title="Defatted Coconut"
-                             image={<StaticImage src="../../../images/kernal-products/defatted.jpg"/>}/>
+                             image={<StaticImage src="../../../images/kernal-products/defatted.webp"/>}/>
                 <ProductCard title="Coconut Milk Powder"
                              image={<StaticImage src="../../../images/kernal-products/coconut-milk-powder.jpeg"/>}/>
                 <ProductCard title="Coconut Milk"
