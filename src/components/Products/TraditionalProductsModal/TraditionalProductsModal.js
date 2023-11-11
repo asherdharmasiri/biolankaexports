@@ -26,7 +26,9 @@ const TraditionalProductsModal = ({ open, onClose }) => {
               />
               <span>Spices</span>
               <p>Captivating Lankan spices, nature's masterpiece.</p>
-              <Button primary>Explore Products</Button>
+              <Button primary to="/products/spices">
+                Explore Products
+              </Button>
             </div>
             <div className={classes.Card}>
               <StaticImage
@@ -48,7 +50,9 @@ const TraditionalProductsModal = ({ open, onClose }) => {
               <p>
                 Premium Sri Lankan rubber, epitome of quality + reliability.
               </p>
-              <Button primary>Explore Products</Button>
+              <Button primary to="/products/rubber">
+                Explore Products
+              </Button>
             </div>
             <div className={classes.Card}>
               <StaticImage src="../../../images/products/tea.png" width={200} />
@@ -57,7 +61,9 @@ const TraditionalProductsModal = ({ open, onClose }) => {
                 Savor essence of Sri Lankan tea, a sensory delight like no
                 other.
               </p>
-              <Button primary>Explore Products</Button>
+              <Button primary to="/products/tea">
+                Explore Products
+              </Button>
             </div>
           </div>
         </ModalBody>

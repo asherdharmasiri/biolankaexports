@@ -19,16 +19,16 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link className={classes.Link}>Company</Link>
+          <Link to='/company' className={classes.Link}>Company</Link>
         </li>
         <li>
-          <Link>News</Link>
+          <Link to='/news'>News</Link>
         </li>
         <li>
-          <Link className={classes.Link}>Achievements</Link>
+          <Link to='/achievements' className={classes.Link}>Achievements</Link>
         </li>
         <li>
-          <Link className={classes.Link}>Contact</Link>
+          <Link to='/contact' className={classes.Link}>Contact</Link>
         </li>
       </ul>
       <div className={classes.Right}>
