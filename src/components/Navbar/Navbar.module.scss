@@ -37,7 +37,58 @@
   color: black;
 }
 
+.MobileRight {
+  display: none;
+}
+
 .ActiveLink {
   color: #449e47;
   text-decoration: none;
+}
+
+.DrawerContent {
+  //width: 350px;
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+    li {
+      cursor: pointer;
+    }
+  }
+}
+
+.DrawerHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #449E47;
+  color: white;
+}
+
+.DrawerContentItems {
+  padding: 20px;
+}
+
+@media (max-width: 400px) {
+  .Navbar {
+    position: sticky;
+    top: 20px;
+    ul {
+      display: none;
+    }
+    button {
+      margin-left: 20px;
+    }
+  }
+  .Right {
+    display: none;
+  }
+  .MobileRight {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
 }

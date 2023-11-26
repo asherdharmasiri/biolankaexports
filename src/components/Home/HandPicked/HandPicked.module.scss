@@ -83,3 +83,45 @@
     }
   }
 }
+
+@media (max-width: 400px) {
+  .HandPicked {
+    flex-direction: column;
+  }
+  .Left {
+    width: 100%;
+    padding: 35px;
+    .TextContent {
+      h2{
+        font-size: 28px;
+      }
+      ul {
+        gap: 3px;
+        li {
+          p {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+  .Right {
+    width: 100%;
+    padding: 35px;
+    .Desc {
+      font-size: 16px;
+    }
+    .Points {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 25px;
+      margin-top: 20px;
+      span {
+        font-size: 24px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+
+}

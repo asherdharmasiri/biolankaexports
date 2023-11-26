@@ -16,7 +16,9 @@ const Footer = () => {
       </div>
       <div className={classes.Content}>
         <div className={classes.Social}>
-          <StaticImage src="../../images/Social.png" width={200} />
+          <div className={classes.ImageContainer}>
+            <StaticImage src="../../images/Social.png" width={200} />
+          </div>
           <div>
             <StaticImage src="../../images/lk.png" width={20} />
             <p>Proudly made in Sri Lanka</p>
