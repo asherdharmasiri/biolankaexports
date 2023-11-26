@@ -26,3 +26,20 @@
     font-size: 18px;
   }
 }
+
+@media (max-width: 400px) {
+  .Header {
+    padding: 20px;
+    h1 {
+      font-size: 30px;
+    }
+    .Container {
+      width: 100%;
+    }
+    p {
+      padding-inline-start: 5px;
+      padding-inline-end: 5px;
+    }
+  }
+
+}

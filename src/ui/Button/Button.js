@@ -10,6 +10,7 @@ const Button = ({
   inverse,
   width,
   to,
+  onClick,
 }) => {
   let styleClasses = [classes.Button];
   if (primary) {
@@ -23,7 +24,11 @@ const Button = ({
   }
   return (
     <Link to={to}>
-      <button className={styleClasses.join(" ")} style={{ width: width + "%" }}>
+      <button
+        className={styleClasses.join(" ")}
+        style={{ width: width + "%" }}
+        onClick={onClick}
+      >
         {children}
       </button>
     </Link>

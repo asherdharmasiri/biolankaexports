@@ -9,6 +9,7 @@
   width: 45%;
   padding: 40px;
   border-radius: 28px;
+
   h2 {
     font-family: DM Serif Display;
     font-size: 40px;
@@ -32,14 +33,17 @@
   padding: 16px;
   border-radius: 12px;
   text-align: center;
+
   span {
     color: white;
     font-size: 28px;
   }
+
   p {
     color: white;
     opacity: 0.5;
   }
+
   button {
     margin-top: 10px;
   }
@@ -50,9 +54,11 @@
   background-color: white;
   padding: 40px;
   border-radius: 28px;
+
   form {
     margin-top: 40px;
   }
+
   button {
     margin-top: 20px;
   }
@@ -73,4 +79,36 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 25px;
   margin-bottom: 15px;
+}
+
+@media (max-width: 400px) {
+  .ContactForm {
+    flex-direction: column;
+  }
+  .ContactPanel {
+    width: 100%;
+    padding: 20px;
+    h2 {
+      font-size: 30px;
+    }
+  }
+  .CardContainer {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .Form {
+    width: 100%;
+    padding: 20px;
+  }
+  .Title {
+    h2 {
+      font-size: 30px;
+    }
+  }
+  .Row {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+    margin-bottom: 15px;
+  }
 }

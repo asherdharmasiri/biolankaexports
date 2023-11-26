@@ -1,7 +1,13 @@
 import React from "react";
 import * as classes from "./TraditionalProductsModal.module.scss";
 import "react-responsive-modal/styles.css";
-import { Modal, ModalOverlay, ModalContent, ModalBody } from "@chakra-ui/react";
+import {
+  Modal,
+  ModalOverlay,
+  ModalContent,
+  ModalBody,
+  ModalFooter,
+} from "@chakra-ui/react";
 import { StaticImage } from "gatsby-plugin-image";
 import Button from "../../../ui/Button/Button";
 
@@ -67,6 +73,11 @@ const TraditionalProductsModal = ({ open, onClose }) => {
             </div>
           </div>
         </ModalBody>
+        <ModalFooter className={classes.ModalFooter}>
+          <Button outline onClick={() => onClose()}>
+            Close
+          </Button>
+        </ModalFooter>
       </ModalContent>
     </Modal>
   );

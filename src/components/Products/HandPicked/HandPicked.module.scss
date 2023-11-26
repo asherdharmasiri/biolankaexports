@@ -22,3 +22,17 @@
   justify-content: center;
   gap: 100px;
 }
+
+@media (max-width: 400px) {
+  .HandPicked {
+    padding: 20px;
+    h1 {
+      font-size: 35px;
+    }
+  }
+  .Container {
+    margin-top: 20px;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
