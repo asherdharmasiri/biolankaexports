@@ -55,7 +55,7 @@
   justify-content: flex-end;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 430px) {
   .ProductContainer {
     grid-template-columns: repeat(1, 1fr);
   }
